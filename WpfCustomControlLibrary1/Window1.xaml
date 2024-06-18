@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfCustomControlLibrary1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCustomControlLibrary1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="276" Height="54" Text="Добро пожаловать в почтовый редактор текста! "/>
+        <Button Content="Word" HorizontalAlignment="Left" Margin="298,140,0,0" VerticalAlignment="Top" Height="58" Width="225" Click="Button_Click"/>
+        <Button Content="Excel" HorizontalAlignment="Left" Margin="298,217,0,0" VerticalAlignment="Top" Height="62" Width="225" Click="Button_Click_1"/>
+        <Button Content="E-mail" HorizontalAlignment="Left" Margin="298,300,0,0" VerticalAlignment="Top" Height="57" Width="225"/>
+    </Grid>
+</Window>
